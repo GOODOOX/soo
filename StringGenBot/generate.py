@@ -30,18 +30,18 @@ ask_ques = "**• ذا كنت تريد تنصب ميوزك اختار بايرو
 
 buttons_ques = [
     [
-        InlineKeyboardButton("بايروجرام 🥀", callback_data="pyrogram"),
-        InlineKeyboardButton("تلثيون 🥀", callback_data="telethon"),
+        InlineKeyboardButton("بايروجرام 🫶❤️‍🩹", callback_data="pyrogram"),
+        InlineKeyboardButton("تلثيون 🫶❤️‍🩹", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("بايروجرام بوت 🥀", callback_data="pyrogram_bot"),
-        InlineKeyboardButton("تلثيون بوت 🥀", callback_data="telethon_bot"),
+        InlineKeyboardButton("بايروجرام بوت 🫶❤️‍🩹", callback_data="pyrogram_bot"),
+        InlineKeyboardButton("تلثيون بوت 🫶❤️‍🩹", callback_data="telethon_bot"),
     ],
 ]
 
 gen_button = [
     [
-        InlineKeyboardButton(text=" اضغط لبدا استخراج الكود 🥀 ", callback_data="generate")
+        InlineKeyboardButton(text=" اضغط لبدا استخراج الكود 🫶❤️‍🩹 ", callback_data="generate")
     ]
 ]
 
@@ -60,7 +60,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         ty = "ᴩʏʀᴏɢʀᴀᴍ"
     if is_bot:
         ty += " ʙᴏᴛ"
-    await msg.reply(f"» ⚡ ¦ بـدء إنـشـاء جـلسـة **{ty}** ...")
+    await msg.reply(f"» ⚡ 💯¦ بـدء إنـشـاء جـلسـة **{ty}** ...")
     user_id = msg.chat.id
     api_id_msg = await bot.ask(user_id, "🎮حسنـا قم بأرسال الـ API_ID\n\nاضغط /skip عشان لو مش معاك الايبي ايدي", filters=filters.text)
     if await cancelled(api_id_msg):
