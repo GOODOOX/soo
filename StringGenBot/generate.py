@@ -169,7 +169,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, "» ✅تم استخراج الجلسه بنجاح ️ {} .\n\n🔍هتلاقيها في الرسايل المحفوظه بحسابك !  ! \n\n**انضم في قناه السورس بنزل شرح** @SOURCE_ALPOP 🥺\n\n**ᴀ وانضم في جروب الدعم @baralpop".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ"))
+    await bot.send_message(msg.chat.id, "» ✅تم استخراج الجلسه بنجاح ️ {} .\n\n🔍هتلاقيها في الرسايل المحفوظه بحسابك !  ! \n\n**انضم في قناه السورس بنزل شرح** @SOURCE_ALPOP \n** وانضم في جروب الدعم @baralpop \n مطور البوت @VIP_ALPOP".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ"))
 
 
 async def cancelled(msg):
