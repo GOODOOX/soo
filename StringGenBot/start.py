@@ -24,14 +24,14 @@ async def start(bot: Client, msg: Message):
 
 ¤¦ بايـروجـرام مـيوزك للبوتات
 
-¤¦ تم انشاء البوت بواسطة [ㅤ𓏺˛ َ˛ َِ𝗞َِ𝗮َِ𝗥َِ𝗲َِ𝗘َِ𝗺 . . ‌𓏺 مشغول› .℘ . 🕷 ˼](https://t.me/Z_X_Z_B)""",
+¤¦ تم انشاء البوت بواسطة [ㅤ𓏺˛ َ˛ َِ  ⏤͟͞𝐀𝐋𝐏𝐎𝐏 |︎‍🦂| َِالــــبـــــوبــــ. ‌𓏺 › .℘ . 🕷 ˼](https://t.me/VIP_ALPOP)""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="إضغط لبدا استخراج الكود", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://t.me/V_P_N_8"),
+                    InlineKeyboardButton("❣️ sᴏᴜʀᴄᴇ ❣️", url="https://t.me/SOURCE_ALPOP"),
                     InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=OWNER_ID)
                 ]
             ]
