@@ -72,7 +72,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         try:
             api_id = int(api_id_msg.text)
         except ValueError:
-            await api_id_msg.reply("ارجع استخرج الجلسه من جديد اضغد /start واستخرج من جديد.", quote=True, reply_markup=InlineKeyboardMarkup(gen_button))
+            await api_id_msg.reply("ارجع استخرج الجلسه من جديد اضغد /start \n واستخرج من جديد.\n مطور البوت @VIP_ALPOP \n جروب الدعم @BARALPOP \n قناه السورس بنزل شرح @SOURCE_ALPOP", quote=True, reply_markup=InlineKeyboardMarkup(gen_button))
             return
         api_hash_msg = await bot.ask(user_id, "» 🎮حسنـا قم بأرسال الـ API_HASH", filters=filters.text)
         if await cancelled(api_hash_msg):
